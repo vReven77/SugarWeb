@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/960295115a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=DM+Sans&family=Inter:wght@300&family=Josefin+Sans&family=Libre+Baskerville&family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>SugarWeb | Home</title>
+</head>
+<body>
+    <div class="navbar-icon-menu" id="navbar-icon-menu">
+        <a class="navbar-icon-selector" href="https://vreven77.github.io/Portfolio">About</a>
+        <a class="navbar-icon-selector" href="#method">Method</a>
+        <a class="navbar-icon-selector" href="#work">Work</a>
+        <a class="navbar-icon-selector" href="#contact">Contact</a>
+        <button class="navbar-icon-close" onclick="closeIconNavbar()"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <header class="header">
+        <h1 class="header-title">Sugar<span>Web.</span></h1>
+        
+        <nav class="header-nav-bar">
+            <a style="--i:1" class="header-nav-bar-selector" href="https://vreven77.github.io/Portfolio">About</a>
+            <a style="--i:2" class="header-nav-bar-selector" href="#method">Method</a>
+            <a style="--i:3" class="header-nav-bar-selector" href="#work">Work</a>
+            <a style="--i:4" class="header-nav-bar-selector button" href="#contact">Contact</a>
+        </nav>
+
+        <nav class="header-nav-bar-icon">
+            <button class="navbar-icon button" onclick="openIconNavbar()"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+    </header>
+
+    <section class="main-top-preview">
+        <div class="main-top-preview-content">
+            <h2 class="main-top-preview-title">Du brauchst <span id="multi-text"></span><br>Websiten<br><span id="title-span">Wir machen es</span></h2>
+    
+            <p class="main-top-preview-desc">Interesse geweckt? Dann schreib uns an und weiteres wird im Chat besprochen.</p>
+            
+            <div class="main-top-preview-contact">
+                <a class="main-top-preview-contact-submit button" href="https://wa.me/4917662314928">Contact Us</a>    
+            </div>
+
+            <p class="main-top-preview-infos">Wir bauen unsere Websiten selber auf. Alles ist selbstgemacht durch Shopify oder eigenem Code und nach Wunsch kann alles an der Webseite verändert werden. Falls du Interesse hast, klick auf <a href="https://wa.me/4917662314928">Contact Us.</a></p>
+        
+            <div class="main-top-preview-arrow"><i class="fa-solid fa-arrow-down"></i></div>
+        </div>
+    </section>
+
+    <section class="main-work" id="work">
+        <div class="main-work-content-top">
+            <h2 class="main-work-title">Work</h2>
+
+            <h3 class="main-work-title-desc">Falls du Leute brauchst die sich professionell um die Website und alles drum und dran kümmern, dann sind wir genau richtig für dich. Wir managen alles damit du dir keine Sorgen machen musst.</h3>
+        
+            <div class="main-work-item-list">
+                <div class="main-work-item">
+                    <img class="main-work-item-image" src="assets/entwicklung.png">
+                    <div class="main-work-item-text-box">
+                        <h4 class="main-work-item-title">Entwicklung</h4>
+                        <p class="main-work-item-text">Wir konstruieren die Website mit den gewünschten Eigenschaften. Wir schicken auch regelmäßige Updates von der Seite, falls es in der Entwicklung ist. Falls ihn etwas nicht gefallen sollte gerne sagen damit wir ihren Erwartungen entsprecchen können</p>    
+                    </div>
+                </div>
+                <div class="main-work-item">
+                    <img class="main-work-item-image" src="assets/design.png">
+                    <div class="main-work-item-text-box">
+                        <h4 class="main-work-item-title">Design</h4>
+                        <p class="main-work-item-text">Das einzige was sie machen müssen ist, Beispiel-Websites zeigen wie die Website aussehen könnte. Farborientierung, Style und wie die Seite gemacht werden soll. Statische Seiten werden selber programmiert. Shop - Seiten werden per Shopify gemacht.</p>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-vorgehensweise" id="method">
+        <h2 class="main-vorgehensweise-title">Vorgehensweise</h2>
+    
+        <div class="main-vorgehensweise-content">
+            <div class="main-vorgehensweise-image">
+                <img id="main-vorgehensweise-image" src="assets/method.png">
+            </div>
+            <ul class="main-vorgehensweise-list">
+                <li class="main-vorgehensweise-item">
+                    <h3 class="main-vorgehensweise-item-title">01 - Konstruktion</h3>
+                    <p class="main-vorgehensweise-item-desc">Sie nennen uns Websites wie die Website entsprechen soll. Bspw. soll die Website dunkel sein mit blauen Akzenten. Nennen Sie uns am besten auch Websiten an denen wir uns orientieren sollen</p>
+                </li>
+                <li class="main-vorgehensweise-item">
+                    <h3 class="main-vorgehensweise-item-title">02 - Konzept</h3>
+                    <p class="main-vorgehensweise-item-desc">Nachdem die Konstruktion fertig ist, gehen wir zum Konzept. Wir geben Ihnen Beispiele und sie wählen eine aus. Falls es jedoch noch immer nicht dem entspricht, werden wir dies bearbeiten.</p>
+                </li>
+                <li class="main-vorgehensweise-item">
+                    <h3 class="main-vorgehensweise-item-title">03 - Entwicklung</h3>
+                    <p class="main-vorgehensweise-item-desc">Nachdem auch das Konzept fertig ist, gehen wir zur Entwicklung. Je nachdem ob es eine statische Website ist oder Shop werden wir es selber programmieren oder per Shopify machen.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="main-ende" id="contact">
+        <h2 class="main-ende-title">Wenn Sie mit allem einverstanden sind, dann kontaktieren sie uns</h2>
+        
+        <div class="main-ende-content">
+            <h3 class="main-ende-top-text">Falls Sie endgültig mit allem einverstanden sind, dann kontaktieren sie uns damit wir weiteres über die Webseite und Preise besprechen können</h3>
+        
+            <a class="main-ende-button button" href="https://wa.me/4917662314928">Contact Us</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-item">
+                <h3 class="footer-item-title">Sugar<span>Web.</span></h3>
+                <p class="footer-item-title-desc">Medardusring 328<br>Mutterstadt</p>
+            </div>
+            <div class="footer-item">
+                <h3 class="footer-item-title">Actions</h3>
+                <a class="footer-selector" href="https://vreven77.github.io/Portfolio">Method</a>
+                <a class="footer-selector" href="#method">Method</a>
+                <a class="footer-selector" href="#work">Work</a>
+                <a class="footer-selector" href="https://wa.me/4917662314928">Contact</a>
+            </div>
+            <div class="footer-item">
+                <h3 class="footer-item-title">Rights</h3>
+                <a class="footer-selector" href="#">Impressum</a>
+                <a class="footer-selector" href="#">Datenschutz</a>
+                <a class="footer-selector" href="#">AGBs</a>
+            </div>
+            <div class="footer-item">
+                <a class="footer-selector" id="footer-icon" href="https://wa.me/4917662314928"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#multi-text', {
+            strings: ["Moderne", "Responsive"],
+            typeSpeed: 75,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        });
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
